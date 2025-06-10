@@ -52,9 +52,9 @@ jobs:
           push: true
           tags: |
             zxavier/readiness-probe:latest
-            ghcr.io/ZhangXavier/readiness-probe:latest
+            ghcr.io/zhangxavier/readiness-probe:latest
             zxavier/readiness-probe:v0.0.1
-            ghcr.io/ZhangXavier/readiness-probe:v0.0.1
+            ghcr.io/zhangxavier/readiness-probe:v0.0.1
       -
          name: Update Hub description
          uses: peter-evans/dockerhub-description@v4
